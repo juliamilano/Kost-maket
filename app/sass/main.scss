@@ -357,4 +357,22 @@ footer .social-share li:hover{
 footer .social-share li:hover a{
 	color: #fff;
 }
+
+footer .footer-img-love{
+	position: relative;
+}
+footer .footer-img-love:after{
+	content: "";
+	position: absolute;
+	top: -5px; 
+	left: 120px;
+	width: 30px;
+	z-index: 300;
+	height: 30px;
+	background-image: url("../img/love.png");
+}
+.footer-contacts a{
+	color: #c4c4c4;
+	text-decoration: none;
+}
 @import "media" // Всегда в конце
