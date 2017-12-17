@@ -52,7 +52,18 @@
 				<div class="header-phone"><a href="callto:+380449685589">(044) 968 55 89</a></div>
 			</div>
 			<div class="col-md-1">
-				<div class="header-lang">rus</div>
+				<div class="header-lang">
+				<div class="dropdown">
+					<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" 
+					id="dropdownMenuButton" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false">
+						ru
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">en</a>
+						<a class="dropdown-item" href="#">ua</a>
+					</div>
+				</div></div>
 			</div>
 			</div>
 		</div>
@@ -165,7 +176,7 @@
 				<div class="col-md-3">
 					<div class="footer-about">
 						<h5>О КОМПАНИИ</h5>
-					<ul>
+					<ul class="nav-hover-effect">
 						<li><a href="">ПРОИЗВОДСТВО</a></li>
 						<li><a href="">ПАРТНЕРЫ</a></li>
 						<li><a href="">ВАКАНСИИ</a></li>
@@ -175,7 +186,7 @@
 				<div class="col-md-3">
 					<div class="footer-services">
 						<h5>УСЛУГИ</h5>
-					<ul>
+					<ul class="nav-hover-effect">
 						<li><a href="">ЛИФТЫ</a></li>
 						<li><a href="">ШАХТЫ</a></li>
 						<li><a href="">ЭСКАЛАТОРЫ</a></li>
@@ -227,6 +238,7 @@
 	
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
+	
 
 </body>
 </html>
