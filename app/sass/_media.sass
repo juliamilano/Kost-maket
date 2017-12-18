@@ -9,18 +9,107 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+	header
+		height: 100px
+	.icon-logo, 
+	.header-phone,
+	.header-lang
+		margin-top: 20px
+	.header-nav-menu ul
+		margin-top: 20px
+		flex-wrap: wrap
+		justify-content: space-around
+	.common-block-grignews-content
+		flex-wrap: wrap
+	.grid-news-item
+		margin-bottom: 30px
+	footer
+		height: 400px
+
+
 	/**/
 
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.block-non-padding
+		padding: 5px
+	header
+		height: 200px
+		position: relative
+	.header-phone
+		position: absolute
+		top: -175px
+		right: 120px
+	.header-lang
+		position: absolute
+		top: -180px
+		right: 20px
+	footer
+		height: 450px
+	footer p
+		font-size: 12px
 	/**/
 
+@media only screen and (max-width : 576px)
+	.out-h1-s div.h1
+		font-size: 25px
+		text-align: center
+		width: 300px
+		margin: 0 auto
+		padding-top: 20px
+		padding-bottom: 10px
+		min-height: 30px
+	.nav-breadcrumbs 
+		height: 40px
+	.nav-breadcrumbs li a
+		font-size: 12px
+	.block-interesting-news
+		text-align: center
+	.common-block-grignews-content
+		margin-left: 20%
+	footer
+		height: 700px
+		padding: 15px
+	footer p
+		display: none
+	footer .footer-contacts p
+		display: block
+	footer .icon-logo
+		height: 40px
+		justify-content: center
+		padding-left: 50%
+		margin-bottom: 20px
+	footer .footer-about h5,
+	footer .footer-services h5,
+	footer .footer-contacts h5
+		text-align: center
+		margin-bottom: 20px
+	footer .footer-about ul li,
+	footer .footer-services ul li
+		padding-left: 20%
+	footer .footer-contacts p
+		text-align: center
+	.footer-contacts ul.social-share
+		padding-left: 45%
+	footer button
+		top: 0
+		margin-left: 25px
+		font-size: 12px
+		height: 35px
+		padding: 0 10px
+	footer button:first-child
+		margin-left: 0
+	footer .button-group
+		text-align: center
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/
 
+@media only screen and (max-width : 380px)
+	.common-block-grignews-content
+		margin-left: 5%
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
