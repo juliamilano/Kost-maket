@@ -9,9 +9,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
+	.main:after
+		min-height: 2290px
 	header
 		height: 100px
-	.icon-logo, 
+
 	.header-phone,
 	.header-lang
 		margin-top: 20px
@@ -32,6 +34,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.main:after
+		min-height: 2645px
 	.block-non-padding
 		padding: 5px
 	header
@@ -52,6 +56,19 @@
 	/**/
 
 @media only screen and (max-width : 576px)
+	.main:after
+		min-height: 2600px
+	/*header
+	 	height: 380px*/
+	.header-phone
+		right: 39%
+		top: 0
+	div.dropdown-menu.show
+		left: -50px !important
+	.header-lang
+		top: 0
+	.icon-logo
+		justify-content: center
 	.out-h1-s div.h1
 		font-size: 25px
 		text-align: center
@@ -78,13 +95,14 @@
 	footer .icon-logo
 		height: 40px
 		justify-content: center
-		padding-left: 50%
+		padding-left: 0%
 		margin-bottom: 20px
 	footer .footer-about h5,
 	footer .footer-services h5,
 	footer .footer-contacts h5
 		text-align: center
-		margin-bottom: 20px
+		margin-bottom: 15px
+		margin-top: 15px
 	footer .footer-about ul li,
 	footer .footer-services ul li
 		padding-left: 20%
@@ -105,11 +123,20 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+	.footer-contacts ul.social-share
+		padding-left: 40%
+	footer .container .row:first-child 
+    	margin-bottom: 10px
 	/**/
 
 @media only screen and (max-width : 380px)
 	.common-block-grignews-content
 		margin-left: 5%
+	.button-group button
+		margin: 0 10px 20px
+	.button-group button:first-child
+		margin: 0 15px 20px
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)

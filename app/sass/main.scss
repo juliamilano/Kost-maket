@@ -63,7 +63,7 @@ body {
 	opacity: 0.4;
 	top: 0;
 	right: 0;
-	left: 0;
+	left: 0px;
 	margin: 0 auto;
 	max-width: 1140px;
 	min-height: 1580px;
@@ -234,6 +234,9 @@ a.dropdown-item{
 .block-non-padding{
 	padding: 0;
 }
+.link-share{
+	position: relative;
+}
 .link-share h2{
 	font-family: 'ProximaNova';
 	font-weight: 600;
@@ -260,6 +263,8 @@ ul.social-share li a{
 .block-content-news .content-img img{
 	width: 570px;
 	height: 260px;
+	position: relative;
+	left: -800px;
 }
 
 article.article-content{
@@ -268,6 +273,10 @@ article.article-content{
 	font-family: 'ProximaNova';
 	line-height: 1.5em;
 	padding: 50px 15px;
+}
+article.article-content p{
+	position: relative;
+	left: -800px;
 }
 
 .block-interesting-news .common-block-grignews-content{
@@ -425,4 +434,42 @@ footer .footer-img-love:after{
 	color: #c4c4c4;
 	text-decoration: none;
 }
+footer .icon-logo{
+	align-items: flex-start;
+}
+
+#button-menu{
+	width: 100%;
+	background: white;
+	color: $grey;
+	text-transform: uppercase;
+}
+
+.menu-item-list{
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+.menu-item-list li{
+	height: 30px;
+	background: rgba(199,199,199,0.2);
+	margin: 5px 0;
+	border-radius: 5px;
+}
+.menu-item-list li:hover{
+	background: rgba(199,199,199,0.8);
+	font-weight: bold;
+}
+.menu-item-list a{
+	color: #fff;
+	text-decoration: none;
+}
+.menu-item-list li:hover a{
+	color: $head-background;
+}
+
 @import "media" // Всегда в конце
+
