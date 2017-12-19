@@ -24,6 +24,16 @@ $(function() {
 	}
 		
 });
+
+$(document).scroll(function() {
+	if($(document).scrollTop() > 800){
+		$('.grid-news-item p').animate({
+			  'opacity':'1'
+			}, 2000, "linear");
+	}
+});
+
+
 $(document).ready( function(){
 	if($(document).width() < 576){
 		$('.header-nav-menu').css('display', 'none');
