@@ -18,7 +18,6 @@ $(function() {
 		if($( document ).width() > 992){
 			if($(document).scrollTop() > 800){
 			$('.link-share').css('position', 'relative');
-			$(".grid-news-item p").animate({'visibility': 'hidden'}, 2000, "linear");
 		}else{
 			$('.link-share').css('position', 'fixed');
 		}
